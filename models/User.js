@@ -33,4 +33,4 @@ const userSchema = mongoose.Schema({
 
 const User = mongoose.model('User',userSchema)
 
-module.exports = {} //해당 스키마를 다른 파일에서도 사용 가능
+module.exports = { User } //해당 스키마를 다른 파일에서도 사용 가능
